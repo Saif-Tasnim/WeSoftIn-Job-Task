@@ -1,0 +1,79 @@
+[
+    {
+        "name": "John Doe",
+        "address": "123 Main St, Cityville, USA",
+        "email": "john.doe@example.com",
+        "profile_picture_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fuser-avatar&psig=AOvVaw2p2IgSsy5LyRBWMh8KVQgM&ust=1695710419835000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCput6TxYEDFQAAAAAdAAAAABAJ",
+        "dob": "1985-05-15",
+        "phone": "+1 (555) 123-4567",
+        "marital_status": "Single",
+        "current_profession": "Software Engineer",
+        "gender": "Male"
+    },
+    {
+        "name": "Jane Smith",
+        "address": "456 Elm St, Townsville, USA",
+        "email": "jane.smith@example.com",
+        "profile_picture_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Duser%2BAvatar&psig=AOvVaw2p2IgSsy5LyRBWMh8KVQgM&ust=1695710419835000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCput6TxYEDFQAAAAAdAAAAABAQ",
+        "dob": "1990-12-20",
+        "phone": "+1 (555) 987-6543",
+        "marital_status": "Married",
+        "current_profession": "Doctor",
+        "gender": "Female"
+    },
+    {
+        "name": "Robert Johnson",
+        "address": "789 Oak St, Villagetown, USA",
+        "email": "robert.johnson@example.com",
+        "profile_picture_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fuser-avatar&psig=AOvVaw2p2IgSsy5LyRBWMh8KVQgM&ust=1695710419835000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCput6TxYEDFQAAAAAdAAAAABAJ",
+        "dob": "1980-08-10",
+        "phone": "+1 (555) 222-3333",
+        "marital_status": "Single",
+        "current_profession": "Teacher",
+        "gender": "Male"
+    },
+    {
+        "name": "Emily Davis",
+        "address": "567 Pine St, Forestville, USA",
+        "email": "emily.davis@example.com",
+        "profile_picture_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Duser%2BAvatar&psig=AOvVaw2p2IgSsy5LyRBWMh8KVQgM&ust=1695710419835000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCput6TxYEDFQAAAAAdAAAAABAQ",
+        "dob": "1987-04-25",
+        "phone": "+1 (555) 555-5555",
+        "marital_status": "Married",
+        "current_profession": "Nurse",
+        "gender": "Female"
+    },
+    {
+        "name": "Michael Wilson",
+        "address": "101 Cedar St, Beachtown, USA",
+        "email": "michael.wilson@example.com",
+        "profile_picture_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fuser-avatar&psig=AOvVaw2p2IgSsy5LyRBWMh8KVQgM&ust=1695710419835000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCput6TxYEDFQAAAAAdAAAAABAJ",
+        "dob": "1976-11-30",
+        "phone": "+1 (555) 123-7890",
+        "marital_status": "Married",
+        "current_profession": "Engineer",
+        "gender": "Male"
+    },
+    {
+        "name": "Olivia Martinez",
+        "address": "222 Maple St, Parkville, USA",
+        "email": "olivia.martinez@example.com",
+        "profile_picture_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Duser%2BAvatar&psig=AOvVaw2p2IgSsy5LyRBWMh8KVQgM&ust=1695710419835000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCput6TxYEDFQAAAAAdAAAAABAQ",
+        "dob": "1992-02-15",
+        "phone": "+1 (555) 987-1234",
+        "marital_status": "Single",
+        "current_profession": "Graphic Designer",
+        "gender": "Female"
+    },
+    {
+        "name": "William Anderson",
+        "address": "333 Birch St, Hillside, USA",
+        "email": "william.anderson@example.com",
+        "profile_picture_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fuser-avatar&psig=AOvVaw2p2IgSsy5LyRBWMh8KVQgM&ust=1695710419835000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCput6TxYEDFQAAAAAdAAAAABAJ",
+        "dob": "1983-09-05",
+        "phone": "+1 (555) 333-2222",
+        "marital_status": "Single",
+        "current_profession": "Accountant",
+        "gender": "Male"
+    }
+]
