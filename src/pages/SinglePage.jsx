@@ -17,7 +17,7 @@ const SinglePage = () => {
     // console.log(count);
 
     return (
-        <div className='w-3/4 mx-auto border-2 border-gray-300 my-10 px-8 py-14 rounded-md shadow-lg'>
+        <div className='w-[90%] md:w-3/4 mx-auto border-2 border-gray-300 my-10 px-8 py-14 rounded-md shadow-lg text-sm md:text-base'>
 
             <div className='text-center'>
                 <Avatar 
@@ -83,7 +83,7 @@ const SinglePage = () => {
                     data={count?.current_profession}
                 ></SpecificInfo>
 
-                <div className='flex justify-end mr-10 mt-8'>
+                <div className='flex justify-center md:justify-end mr-10 pt-12 md:mt-8'>
                     <button className='bg-green-500 rounded-md px-3 py-1 text-white'>
                         <Link to="/">Back to Previous Page </Link>
                     </button>

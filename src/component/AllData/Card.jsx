@@ -11,12 +11,13 @@ const Card = ({ data }) => {
 
             <div className="card-body">
 
-                <p className="text-content2 text-lg font-bold text-center py-2">{data.name}</p>
-                <p className="text-content2 text-center">{data.email}</p>
+                <p className="text-content2 text-sm md:text-base font-bold text-left md:text-center py-2">{data.name}</p>
+                <p className="text-content2 text-xs md:text-base text-left md:text-center py-2">{data.email}
+                </p>
 
                 <div className="card-footer mt-6 justify-center">
                     <Link to={`/${data.id}`}>
-                        <button className="btn-secondary btn">
+                        <button className="btn-secondary btn text-xs md:text-base">
                             View Details
                         </button>
                     </Link>
