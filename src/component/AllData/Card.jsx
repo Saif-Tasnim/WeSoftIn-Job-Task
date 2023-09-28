@@ -1,5 +1,6 @@
 import React from 'react';
 import Avatar from '../Avatar/Avatar';
+import { Link } from 'react-router-dom';
 
 const Card = ({ data }) => {
     return (
@@ -9,12 +10,17 @@ const Card = ({ data }) => {
             </div>
 
             <div className="card-body">
-                
+
                 <p className="text-content2 text-lg font-bold text-center py-2">{data.name}</p>
                 <p className="text-content2 text-center">{data.email}</p>
-                
+
                 <div className="card-footer mt-6 justify-center">
-                    <button className="btn-secondary btn"> View Details </button>
+                    <Link to={`/${data.id}`}>
+                        <button className="btn-secondary btn">
+                            View Details
+                        </button>
+                    </Link>
+
                 </div>
             </div>
         </div>

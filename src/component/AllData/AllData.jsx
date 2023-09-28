@@ -2,18 +2,10 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addUser } from '../../redux/features/dataSlicer';
-import Avatar from '../Avatar/Avatar';
 import Card from './Card';
 
 const AllData = () => {
     const count = useSelector((state) => state.storedData.value)
-    const dispatch = useDispatch();
-
-    useEffect(() => {
-        fetch('data.json')
-            .then(res => res.json())
-            .then(data => dispatch(addUser(data)))
-    }, [])
 
     const data = count?.[0] || 0;
     console.log(data);
@@ -23,9 +15,9 @@ const AllData = () => {
             {
                 data.length > 0
                     ?
-                    data?.map((d, index) => <>
+                    data?.map((d) => <>
                         <Card
-                            key={index}
+                            key={d.id}
                             data={d}
                         />
 
