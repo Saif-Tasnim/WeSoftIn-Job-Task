@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { findUser } from '../redux/features/dataSlicer';
 import { AuthContext } from '../hooks/AuthProvider';
 import Avatar from '../component/Avatar/Avatar';
@@ -20,7 +20,9 @@ const SinglePage = () => {
         <div className='w-3/4 mx-auto border-2 border-gray-300 my-10 px-8 py-14 rounded-md shadow-lg'>
 
             <div className='text-center'>
-                <Avatar img={count.profile_picture_url}
+                <Avatar 
+                img={count.profile_picture_url}
+                flag="1"
                 />
             </div>
 
@@ -81,6 +83,11 @@ const SinglePage = () => {
                     data={count?.current_profession}
                 ></SpecificInfo>
 
+                <div className='flex justify-end mr-10 mt-8'>
+                    <button className='bg-green-500 rounded-md px-3 py-1 text-white'>
+                        <Link to="/">Back to Previous Page </Link>
+                    </button>
+                </div>
 
             </div>
 
